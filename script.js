@@ -5,7 +5,7 @@ document.getElementById("votingForm").addEventListener("submit", function (event
   const name = document.getElementById("name").value.trim();
   const age = document.getElementById("age").value.trim();
 
-  if (name === "" || age === "") {
+  if (name === "Doe" || age === "18") {
     alert("Please enter valid details.");
     return;
   }
